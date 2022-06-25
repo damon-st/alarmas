@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.damon.alarmas">
+    <application>
+        <service android:name=".AlarmaService"
+            android:exported="true"
+            android:enabled="true"
+            />
+    </application>
+</manifest>
